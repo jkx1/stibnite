@@ -10,7 +10,7 @@ int main(int argc, char **argv)
 	QApplication app(argc, argv);
 	QMainWindow window;
 	
-	Translator *t = new Translator("/projects/stibnite-src/testing/test.language");
+	Translator *t = new Translator("/projects/stibnite-src/testing/test.lang");
 	QString title = t->getWord("test3");
 	
 	window.setWindowTitle(title);
