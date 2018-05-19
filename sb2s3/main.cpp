@@ -11,7 +11,7 @@ int main(int argc, char **argv)
 	QMainWindow window;
 	
 	Translator *t = new Translator("/projects/stibnite-src/testing/test.language");
-	QString title = t->getWord("test1");
+	QString title = t->getWord("test3");
 	
 	window.setWindowTitle(title);
 	window.show();
